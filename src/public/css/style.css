@@ -691,6 +691,34 @@ h6 {
 
 /* Call To Action Section
 --------------------------------*/
+#frase {
+  background-image:  url('/img/yogi-Bhajan.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+#frase .cta-text {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+
+#frase .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 3px solid #fff;
+  color: #fff;
+}
 
 #call-to-action {
   background: #2d2b46;
