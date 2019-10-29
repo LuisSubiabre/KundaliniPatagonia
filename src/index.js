@@ -8,7 +8,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // middlewares
-app.use(morgan('dev'));
+//app.use(morgan('dev'));
 
 // routes
 app.use(require('./routes'));
