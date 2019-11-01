@@ -1,6 +1,5 @@
 require('dotenv').config();
 const express = require('express');
-//const modemailer = require('nodemailer');
 const router = express.Router();
 
 
