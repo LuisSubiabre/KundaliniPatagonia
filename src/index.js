@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const bodyParser = require('body-parser');
 const app = express();
 
 // settings
@@ -9,6 +10,8 @@ app.set('view engine', 'ejs');
 
 // middlewares
 //app.use(morgan('dev'));
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
 
 // routes
 app.use(require('./routes'));

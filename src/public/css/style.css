@@ -1402,7 +1402,7 @@ h6 {
 #footer .footer-top .form #errormessage {
   color: #fff;
   display: none;
-  background: red;
+  background:purple;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1416,7 +1416,7 @@ h6 {
 }
 
 #footer .footer-top .form .validation {
-  color: red;
+  color: purple;
   display: none;
   margin: 0 0 20px;
   font-weight: 400;
